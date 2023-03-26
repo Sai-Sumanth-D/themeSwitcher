@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Themes Switcher</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="app.js"></script>
+  </head>
+
+  <body class="light">
+    <nav class="navbar">
+      <ul class="nav_container">
+        <!--Navbar-->
+        <li class="nav_items">Home</li>
+        <li class="nav_items">About</li>
+        <li class="nav_items">Contact</li>
+
+        <!-- for top down-->
+        <li class="nav_items has-dropdown">
+          <a href="#">Theme</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a id="light" href="#">light</a>
+            </li>
+
+            <li class="dropdown-item">
+              <a id="dark" href="#">dark</a>
+            </li>
+
+            <li class="dropdown-item">
+              <a id="solar" href="#">solarize</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav_items">Login</li>
+        <li class="nav_items">Sign up!!</li>
+      </ul>
+    </nav>
+
+    <header>
+      <img
+        class="logo"
+        src="/images/14957369.jpg"
+        height="200px"
+        width="200px"
+        alt="Website Logo"
+      />
+
+      <h1>
+        Sai Sumanth Dhulipala, <br />
+        <h3>Graduate Staudent at Southern Arkansas Unversity</h3>
+        <br />
+
+        <p>Front End Web Development</p>
+      </h1>
+    </header>
+
+    <main class="para">
+      Hello.<br />
+      <p>
+        I am Sai Sumanth Dhulipala. <br />
+        I am a Graduate Student at
+        <b><i> Southern Arkansas University.</i></b>
+        This is a simple project which has a key focus of implementing CSS.
+        Basic idea of the project is to implement various concepts such as CSS
+        Variables, Key Frames for the Animation of a logo, etc. The fundemental
+        goal of this project is to be able to switch between the themes
+        available. After the user changing the theme it should also be back to
+        normal theme if needed. JavaScript was used to add the functionality.
+        Concepts such as EventListeners were implemented. HTML was used to add
+        the basic structure to the web page. A
+      </p>
+    </main>
+  </body>
+</html>
